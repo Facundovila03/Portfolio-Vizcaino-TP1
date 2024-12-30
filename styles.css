@@ -17,3 +17,14 @@
   align-items: center;
   background-image: url(assets/fondo,blanco.jpg);
 }
+
+.cont-proyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.cont-Formacion {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
